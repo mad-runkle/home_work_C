@@ -15,7 +15,7 @@ else if (num == 0)
     {
         Console.WriteLine("Вы ввели 0");
     }
-    else if (num < 0)
-        {
-            Console.WriteLine("Вы ввели отрицательное число");
-        }
+    else
+    {
+        Console.WriteLine("Вы ввели отрицательное число");
+    }
