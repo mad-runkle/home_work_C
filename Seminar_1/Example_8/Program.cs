@@ -8,7 +8,7 @@ if (num > 0)
     while (evenNumber <= num)
     {
         Console.Write($"{evenNumber}, ");
-        evenNumber = evenNumber + 2;
+        evenNumber += 2; //evenNumber = evenNumber + 2;
     }
 }
 else if (num == 0)
