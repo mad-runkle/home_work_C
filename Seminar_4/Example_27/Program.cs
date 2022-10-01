@@ -6,7 +6,7 @@ int result = 0;
 
 while (number > 0)
 {
-    result = result + number % 10;
-    number = number / 10;
+    result += number % 10; //result = result + number % 10;
+    number /= 10; //number = number / 10; 
 }
 Console.WriteLine($"Сумма цифр в числе: {result}");
